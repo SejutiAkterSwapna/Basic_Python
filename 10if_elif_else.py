@@ -11,4 +11,4 @@ elif(A == 4 and B == "M"):
     print("Fee is 300")
 
 else:
-    print("No fee")           
+    print("No fee.")           
