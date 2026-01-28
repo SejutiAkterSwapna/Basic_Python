@@ -1,0 +1,1136 @@
+[
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "Chapter 1.10if_elif_else",
+        "description": "Chapter 1.10if_elif_else",
+        "peekOfCode": "A = int(input(\"Number : \"))\nB = input(\"M/F : \")\nif(A == 1 or A == 2 and B == \"M\"):\n    print(\"Fee is 100\")\nelif(A == 3 or A == 4 or B == \"F\"):\n    print(\"Fee is 200\")\nelif(A == 4 and B == \"M\"):\n    print(\"Fee is 300\")\nelse:\n    print(\"No fee.\")",
+        "detail": "Chapter 1.10if_elif_else",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "Chapter 1.10if_elif_else",
+        "description": "Chapter 1.10if_elif_else",
+        "peekOfCode": "B = input(\"M/F : \")\nif(A == 1 or A == 2 and B == \"M\"):\n    print(\"Fee is 100\")\nelif(A == 3 or A == 4 or B == \"F\"):\n    print(\"Fee is 200\")\nelif(A == 4 and B == \"M\"):\n    print(\"Fee is 300\")\nelse:\n    print(\"No fee.\")",
+        "detail": "Chapter 1.10if_elif_else",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 5,
+        "importPath": "Chapter 1.11Single_line_if",
+        "description": "Chapter 1.11Single_line_if",
+        "peekOfCode": "food = input(\"food :\")   #Ternary Operator\neat = \"yes\" if (food == \"cake\") else \"no\" \nprint(eat)",
+        "detail": "Chapter 1.11Single_line_if",
+        "documentation": {}
+    },
+    {
+        "label": "eat",
+        "kind": 5,
+        "importPath": "Chapter 1.11Single_line_if",
+        "description": "Chapter 1.11Single_line_if",
+        "peekOfCode": "eat = \"yes\" if (food == \"cake\") else \"no\" \nprint(eat)",
+        "detail": "Chapter 1.11Single_line_if",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 5,
+        "importPath": "Chapter 1.12Ternary_operator",
+        "description": "Chapter 1.12Ternary_operator",
+        "peekOfCode": "food = input(\"Food : \")\nprint(\"sweet\") if(food == \"cake\" or food == \"laddu\") else print(\"not sweet\")",
+        "detail": "Chapter 1.12Ternary_operator",
+        "documentation": {}
+    },
+    {
+        "label": "P",
+        "kind": 5,
+        "importPath": "Chapter 1.13Practice",
+        "description": "Chapter 1.13Practice",
+        "peekOfCode": "P = float(input(\"Principal amount : \"))\nR = float(input(\"Rate amount : \"))\nT = float(input(\"Time is : \"))\nSI = (P * R * T) / 100\nprint(\"Interest is : \",SI)",
+        "detail": "Chapter 1.13Practice",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "Chapter 1.13Practice",
+        "description": "Chapter 1.13Practice",
+        "peekOfCode": "R = float(input(\"Rate amount : \"))\nT = float(input(\"Time is : \"))\nSI = (P * R * T) / 100\nprint(\"Interest is : \",SI)",
+        "detail": "Chapter 1.13Practice",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "Chapter 1.13Practice",
+        "description": "Chapter 1.13Practice",
+        "peekOfCode": "T = float(input(\"Time is : \"))\nSI = (P * R * T) / 100\nprint(\"Interest is : \",SI)",
+        "detail": "Chapter 1.13Practice",
+        "documentation": {}
+    },
+    {
+        "label": "SI",
+        "kind": 5,
+        "importPath": "Chapter 1.13Practice",
+        "description": "Chapter 1.13Practice",
+        "peekOfCode": "SI = (P * R * T) / 100\nprint(\"Interest is : \",SI)",
+        "detail": "Chapter 1.13Practice",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "Chapter 1.14Practice",
+        "description": "Chapter 1.14Practice",
+        "peekOfCode": "A = int(input(\"a = \"))\nB = int(input(\"b = \"))\nprint(A + B)\nprint(A - B)\nprint(A * B)\nprint(A / B)\nprint(A % B)#Remainder\nprint(A ** B)#Power operator a^b\n#Relational Operator\nprint(A == B)",
+        "detail": "Chapter 1.14Practice",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "Chapter 1.14Practice",
+        "description": "Chapter 1.14Practice",
+        "peekOfCode": "B = int(input(\"b = \"))\nprint(A + B)\nprint(A - B)\nprint(A * B)\nprint(A / B)\nprint(A % B)#Remainder\nprint(A ** B)#Power operator a^b\n#Relational Operator\nprint(A == B)\nprint(A != B)",
+        "detail": "Chapter 1.14Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 1.15Assignment_O",
+        "description": "Chapter 1.15Assignment_O",
+        "peekOfCode": "num = 3\nnum += 5 # num = num + 5\nnum -= 5 # num = num - 5\nnum *= 5 # num = num * 5\nnum /= 5 # num = num / 5\nnum %= 5 # num = num % 5\nnum **= 5 # num = num ^ 5\nprint(\"Number : \",num)",
+        "detail": "Chapter 1.15Assignment_O",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"a",
+        "kind": 5,
+        "importPath": "Chapter 1.16Logical_O",
+        "description": "Chapter 1.16Logical_O",
+        "peekOfCode": "\"\"\"a = 40\nb = 50\nprint(not False)\nprint(not True) \nprint(not a<b)\"\"\"\na = True\nb = False\nprint(\"AND operator : \",a and b)\nprint(\"OR operator : \",a or b)",
+        "detail": "Chapter 1.16Logical_O",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Chapter 1.16Logical_O",
+        "description": "Chapter 1.16Logical_O",
+        "peekOfCode": "b = 50\nprint(not False)\nprint(not True) \nprint(not a<b)\"\"\"\na = True\nb = False\nprint(\"AND operator : \",a and b)\nprint(\"OR operator : \",a or b)",
+        "detail": "Chapter 1.16Logical_O",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Chapter 1.16Logical_O",
+        "description": "Chapter 1.16Logical_O",
+        "peekOfCode": "a = True\nb = False\nprint(\"AND operator : \",a and b)\nprint(\"OR operator : \",a or b)",
+        "detail": "Chapter 1.16Logical_O",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Chapter 1.16Logical_O",
+        "description": "Chapter 1.16Logical_O",
+        "peekOfCode": "b = False\nprint(\"AND operator : \",a and b)\nprint(\"OR operator : \",a or b)",
+        "detail": "Chapter 1.16Logical_O",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Chapter 1.17Practice",
+        "description": "Chapter 1.17Practice",
+        "peekOfCode": "num1 = int(input(\"Number1 = \"))\nnum2 = int(input(\"Number2 = \"))\nsum = num1 + num2\nprint(\"Sum is : \", sum)",
+        "detail": "Chapter 1.17Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Chapter 1.17Practice",
+        "description": "Chapter 1.17Practice",
+        "peekOfCode": "num2 = int(input(\"Number2 = \"))\nsum = num1 + num2\nprint(\"Sum is : \", sum)",
+        "detail": "Chapter 1.17Practice",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "Chapter 1.17Practice",
+        "description": "Chapter 1.17Practice",
+        "peekOfCode": "sum = num1 + num2\nprint(\"Sum is : \", sum)",
+        "detail": "Chapter 1.17Practice",
+        "documentation": {}
+    },
+    {
+        "label": "side",
+        "kind": 5,
+        "importPath": "Chapter 1.18Practice",
+        "description": "Chapter 1.18Practice",
+        "peekOfCode": "side = float(input(\"Side : \"))\n#area = side * side\n#print(\"Area is : \",area)\nprint(\"Area is : \",side * side)",
+        "detail": "Chapter 1.18Practice",
+        "documentation": {}
+    },
+    {
+        "label": "#area",
+        "kind": 5,
+        "importPath": "Chapter 1.18Practice",
+        "description": "Chapter 1.18Practice",
+        "peekOfCode": "#area = side * side\n#print(\"Area is : \",area)\nprint(\"Area is : \",side * side)",
+        "detail": "Chapter 1.18Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Chapter 1.19Practiec",
+        "description": "Chapter 1.19Practiec",
+        "peekOfCode": "num1 = float(input(\"Enter number :\"))\nnum2 = float(input(\"Enter number :\"))\n#ave = (num1 + num2)/ 2\n#print(\"Average is : \",ave)\nprint(\"Average is : \",(num1 + num2)/ 2)",
+        "detail": "Chapter 1.19Practiec",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Chapter 1.19Practiec",
+        "description": "Chapter 1.19Practiec",
+        "peekOfCode": "num2 = float(input(\"Enter number :\"))\n#ave = (num1 + num2)/ 2\n#print(\"Average is : \",ave)\nprint(\"Average is : \",(num1 + num2)/ 2)",
+        "detail": "Chapter 1.19Practiec",
+        "documentation": {}
+    },
+    {
+        "label": "#ave",
+        "kind": 5,
+        "importPath": "Chapter 1.19Practiec",
+        "description": "Chapter 1.19Practiec",
+        "peekOfCode": "#ave = (num1 + num2)/ 2\n#print(\"Average is : \",ave)\nprint(\"Average is : \",(num1 + num2)/ 2)",
+        "detail": "Chapter 1.19Practiec",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Chapter 1.20practice",
+        "description": "Chapter 1.20practice",
+        "peekOfCode": "a = int(input(\"Enter number : \"))\nb = int(input(\"Enter number : \"))\nprint(a>=b)",
+        "detail": "Chapter 1.20practice",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Chapter 1.20practice",
+        "description": "Chapter 1.20practice",
+        "peekOfCode": "b = int(input(\"Enter number : \"))\nprint(a>=b)",
+        "detail": "Chapter 1.20practice",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "name = \"Sejuti akter swapna\" #string\nflower = 'beli' \nfruit = \"mango\"\nanimal = '\"cat\"'\nage = 21   #Assignment Operator\nprice = 1200.00\nage2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "flower",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "flower = 'beli' \nfruit = \"mango\"\nanimal = '\"cat\"'\nage = 21   #Assignment Operator\nprice = 1200.00\nage2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)\nprint(age2)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "fruit",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "fruit = \"mango\"\nanimal = '\"cat\"'\nage = 21   #Assignment Operator\nprice = 1200.00\nage2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)\nprint(age2)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "animal",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "animal = '\"cat\"'\nage = 21   #Assignment Operator\nprice = 1200.00\nage2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)\nprint(age2)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "age = 21   #Assignment Operator\nprice = 1200.00\nage2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)\nprint(age2)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "price = 1200.00\nage2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)\nprint(age2)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "age2",
+        "kind": 5,
+        "importPath": "Chapter 1.3variable",
+        "description": "Chapter 1.3variable",
+        "peekOfCode": "age2 = age\nprint(price)\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)\nprint(age2)",
+        "detail": "Chapter 1.3variable",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Chapter 1.4DataType",
+        "description": "Chapter 1.4DataType",
+        "peekOfCode": "name = \"Sejuti akter swapna\"\nage = 21   \nprice = 1200.00\nold = False #1st Letter Capital \na = None  #1st Letter Capital\nprint(type(name))\nprint(type(age))\nprint(type(price))\nprint(type(old))\nprint(type(a))",
+        "detail": "Chapter 1.4DataType",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Chapter 1.4DataType",
+        "description": "Chapter 1.4DataType",
+        "peekOfCode": "age = 21   \nprice = 1200.00\nold = False #1st Letter Capital \na = None  #1st Letter Capital\nprint(type(name))\nprint(type(age))\nprint(type(price))\nprint(type(old))\nprint(type(a))",
+        "detail": "Chapter 1.4DataType",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Chapter 1.4DataType",
+        "description": "Chapter 1.4DataType",
+        "peekOfCode": "price = 1200.00\nold = False #1st Letter Capital \na = None  #1st Letter Capital\nprint(type(name))\nprint(type(age))\nprint(type(price))\nprint(type(old))\nprint(type(a))",
+        "detail": "Chapter 1.4DataType",
+        "documentation": {}
+    },
+    {
+        "label": "old",
+        "kind": 5,
+        "importPath": "Chapter 1.4DataType",
+        "description": "Chapter 1.4DataType",
+        "peekOfCode": "old = False #1st Letter Capital \na = None  #1st Letter Capital\nprint(type(name))\nprint(type(age))\nprint(type(price))\nprint(type(old))\nprint(type(a))",
+        "detail": "Chapter 1.4DataType",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Chapter 1.4DataType",
+        "description": "Chapter 1.4DataType",
+        "peekOfCode": "a = None  #1st Letter Capital\nprint(type(name))\nprint(type(age))\nprint(type(price))\nprint(type(old))\nprint(type(a))",
+        "detail": "Chapter 1.4DataType",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Chapter 1.5sumDiff",
+        "description": "Chapter 1.5sumDiff",
+        "peekOfCode": "a = 765\nb = 488\nsum = a + b\ndiff = a - b\nprint(\"sum is =\", sum)\nprint(\"diff is =\", diff)",
+        "detail": "Chapter 1.5sumDiff",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Chapter 1.5sumDiff",
+        "description": "Chapter 1.5sumDiff",
+        "peekOfCode": "b = 488\nsum = a + b\ndiff = a - b\nprint(\"sum is =\", sum)\nprint(\"diff is =\", diff)",
+        "detail": "Chapter 1.5sumDiff",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "Chapter 1.5sumDiff",
+        "description": "Chapter 1.5sumDiff",
+        "peekOfCode": "sum = a + b\ndiff = a - b\nprint(\"sum is =\", sum)\nprint(\"diff is =\", diff)",
+        "detail": "Chapter 1.5sumDiff",
+        "documentation": {}
+    },
+    {
+        "label": "diff",
+        "kind": 5,
+        "importPath": "Chapter 1.5sumDiff",
+        "description": "Chapter 1.5sumDiff",
+        "peekOfCode": "diff = a - b\nprint(\"sum is =\", sum)\nprint(\"diff is =\", diff)",
+        "detail": "Chapter 1.5sumDiff",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "Chapter 1.6Expression_Execution",
+        "description": "Chapter 1.6Expression_Execution",
+        "peekOfCode": "txt = \"@\"\nprint(a * txt * b)  \nprint(\"______________\")\nA, B = \"2\" , 3\nTXT = \"@\"\nprint((A + TXT) * B)  #Concatcnation\nprint(\"_____________\")\na1, b1 = 2, 3\nc = 4\nprint(a1 + b1 * c)",
+        "detail": "Chapter 1.6Expression_Execution",
+        "documentation": {}
+    },
+    {
+        "label": "TXT",
+        "kind": 5,
+        "importPath": "Chapter 1.6Expression_Execution",
+        "description": "Chapter 1.6Expression_Execution",
+        "peekOfCode": "TXT = \"@\"\nprint((A + TXT) * B)  #Concatcnation\nprint(\"_____________\")\na1, b1 = 2, 3\nc = 4\nprint(a1 + b1 * c)\nprint(\"________________\")\nA1, B1  = 1.5, 3\nc1 = A1//B1\nprint(c1)",
+        "detail": "Chapter 1.6Expression_Execution",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Chapter 1.6Expression_Execution",
+        "description": "Chapter 1.6Expression_Execution",
+        "peekOfCode": "c = 4\nprint(a1 + b1 * c)\nprint(\"________________\")\nA1, B1  = 1.5, 3\nc1 = A1//B1\nprint(c1)\nprint(\"____________\")\nA2 ,B2 = -12 ,5\nC = A2 //B2\nprint(C)",
+        "detail": "Chapter 1.6Expression_Execution",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "Chapter 1.6Expression_Execution",
+        "description": "Chapter 1.6Expression_Execution",
+        "peekOfCode": "c1 = A1//B1\nprint(c1)\nprint(\"____________\")\nA2 ,B2 = -12 ,5\nC = A2 //B2\nprint(C)\nprint(\"______________\")\na2 , b2 = 5 , -2\nC1 = a2 % b2\nprint(C1)",
+        "detail": "Chapter 1.6Expression_Execution",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 5,
+        "importPath": "Chapter 1.6Expression_Execution",
+        "description": "Chapter 1.6Expression_Execution",
+        "peekOfCode": "C = A2 //B2\nprint(C)\nprint(\"______________\")\na2 , b2 = 5 , -2\nC1 = a2 % b2\nprint(C1)",
+        "detail": "Chapter 1.6Expression_Execution",
+        "documentation": {}
+    },
+    {
+        "label": "C1",
+        "kind": 5,
+        "importPath": "Chapter 1.6Expression_Execution",
+        "description": "Chapter 1.6Expression_Execution",
+        "peekOfCode": "C1 = a2 % b2\nprint(C1)",
+        "detail": "Chapter 1.6Expression_Execution",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "kind": 5,
+        "importPath": "Chapter 1.7Input",
+        "description": "Chapter 1.7Input",
+        "peekOfCode": "Name = input(\"name: \")\nAge = int(input(\"agr: \"))\nprice = float(input(\"price is \"))\nprint(\"I name is\",Name,\"And I am\",Age,\"years old\")",
+        "detail": "Chapter 1.7Input",
+        "documentation": {}
+    },
+    {
+        "label": "Age",
+        "kind": 5,
+        "importPath": "Chapter 1.7Input",
+        "description": "Chapter 1.7Input",
+        "peekOfCode": "Age = int(input(\"agr: \"))\nprice = float(input(\"price is \"))\nprint(\"I name is\",Name,\"And I am\",Age,\"years old\")",
+        "detail": "Chapter 1.7Input",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Chapter 1.7Input",
+        "description": "Chapter 1.7Input",
+        "peekOfCode": "price = float(input(\"price is \"))\nprint(\"I name is\",Name,\"And I am\",Age,\"years old\")",
+        "detail": "Chapter 1.7Input",
+        "documentation": {}
+    },
+    {
+        "label": "Light",
+        "kind": 5,
+        "importPath": "Chapter 1.8if_elif_else",
+        "description": "Chapter 1.8if_elif_else",
+        "peekOfCode": "Light = input(\"Colour :\")\nif(Light == \"red\"):\n    print(\"STOP\")\nelif(Light == \"green\"):\n    print(\"GO\")\nelif(Light == \"yelloW\"):\n    print(\"LOOK\")\nelse:\n    print(\"Light is broken\")",
+        "detail": "Chapter 1.8if_elif_else",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "kind": 5,
+        "importPath": "Chapter 1.9if_elif_else",
+        "description": "Chapter 1.9if_elif_else",
+        "peekOfCode": "Result = int(input(\"RESULT : \"))\nif(Result >= 90):\n    print(\"A\")\nelif(Result >= 80 and Result < 90):\n    print(\"B\")\nelif(Result >= 70 and Result < 80):\n    print(\"C\")\nelse:\n    print(\"D\")",
+        "detail": "Chapter 1.9if_elif_else",
+        "documentation": {}
+    },
+    {
+        "label": "#string",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "#string = 'My name is sejuti'\n#string = \"My name is sejuti\"\n#string = \"\"\"My name is sejuti\"\"\"\n#string = '''My name is sejuti'''\n                                                   # \\n -> next line\n                                                   # \\t -> tab\n#string = \"My name is sejuti.\\nI am a student.\\tI live in bangladesh\"\n#print(string)\nstring1 = \"hello\"\nstring2 = \"World\"",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "#string",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "#string = \"My name is sejuti\"\n#string = \"\"\"My name is sejuti\"\"\"\n#string = '''My name is sejuti'''\n                                                   # \\n -> next line\n                                                   # \\t -> tab\n#string = \"My name is sejuti.\\nI am a student.\\tI live in bangladesh\"\n#print(string)\nstring1 = \"hello\"\nstring2 = \"World\"\nprint(string1+string2)",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "#string",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "#string = \"\"\"My name is sejuti\"\"\"\n#string = '''My name is sejuti'''\n                                                   # \\n -> next line\n                                                   # \\t -> tab\n#string = \"My name is sejuti.\\nI am a student.\\tI live in bangladesh\"\n#print(string)\nstring1 = \"hello\"\nstring2 = \"World\"\nprint(string1+string2)",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "#string",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "#string = '''My name is sejuti'''\n                                                   # \\n -> next line\n                                                   # \\t -> tab\n#string = \"My name is sejuti.\\nI am a student.\\tI live in bangladesh\"\n#print(string)\nstring1 = \"hello\"\nstring2 = \"World\"\nprint(string1+string2)",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "#string",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "#string = \"My name is sejuti.\\nI am a student.\\tI live in bangladesh\"\n#print(string)\nstring1 = \"hello\"\nstring2 = \"World\"\nprint(string1+string2)",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "string1",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "string1 = \"hello\"\nstring2 = \"World\"\nprint(string1+string2)",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "string2",
+        "kind": 5,
+        "importPath": "Chapter 2.1Strings",
+        "description": "Chapter 2.1Strings",
+        "peekOfCode": "string2 = \"World\"\nprint(string1+string2)",
+        "detail": "Chapter 2.1Strings",
+        "documentation": {}
+    },
+    {
+        "label": "#str",
+        "kind": 5,
+        "importPath": "Chapter 2.2Len",
+        "description": "Chapter 2.2Len",
+        "peekOfCode": "#str = \"sejuti akter\"\n#print(len(str))\n#len1 = len(str)\n#print(len1)\nstr = \"sejuti\"+\" \"+\"swapna\"\nprint(len(str))",
+        "detail": "Chapter 2.2Len",
+        "documentation": {}
+    },
+    {
+        "label": "#len1",
+        "kind": 5,
+        "importPath": "Chapter 2.2Len",
+        "description": "Chapter 2.2Len",
+        "peekOfCode": "#len1 = len(str)\n#print(len1)\nstr = \"sejuti\"+\" \"+\"swapna\"\nprint(len(str))",
+        "detail": "Chapter 2.2Len",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "Chapter 2.2Len",
+        "description": "Chapter 2.2Len",
+        "peekOfCode": "str = \"sejuti\"+\" \"+\"swapna\"\nprint(len(str))",
+        "detail": "Chapter 2.2Len",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "Chapter 2.3Indexing",
+        "description": "Chapter 2.3Indexing",
+        "peekOfCode": "str = \"sejuti aktre sawapna\"\n#ch = str[3]\n#print(ch)\nprint(str[8])\nprint(str[5:10])\nprint(str[14:])#[14:len(str)]\nprint(str[:5])#[0:5]\nprint(str[-7:-1])#Negative index",
+        "detail": "Chapter 2.3Indexing",
+        "documentation": {}
+    },
+    {
+        "label": "#ch",
+        "kind": 5,
+        "importPath": "Chapter 2.3Indexing",
+        "description": "Chapter 2.3Indexing",
+        "peekOfCode": "#ch = str[3]\n#print(ch)\nprint(str[8])\nprint(str[5:10])\nprint(str[14:])#[14:len(str)]\nprint(str[:5])#[0:5]\nprint(str[-7:-1])#Negative index",
+        "detail": "Chapter 2.3Indexing",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "Chapter 2.4string_function",
+        "description": "Chapter 2.4string_function",
+        "peekOfCode": "str = \"i am learning python by my laptop\"\nprint(str.endswith(\"top\"))\nprint(str.capitalize())\nstr = (str.capitalize())\nprint(str)\nprint(str.replace(\"a\" , \"o\"))\nprint(str.replace(\"python\" , \"c++\"))\nprint(str.find(\"learning\"))\nprint(str.find(\"p\"))\nprint(str.count(\"a\"))",
+        "detail": "Chapter 2.4string_function",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "Chapter 2.4string_function",
+        "description": "Chapter 2.4string_function",
+        "peekOfCode": "str = (str.capitalize())\nprint(str)\nprint(str.replace(\"a\" , \"o\"))\nprint(str.replace(\"python\" , \"c++\"))\nprint(str.find(\"learning\"))\nprint(str.find(\"p\"))\nprint(str.count(\"a\"))",
+        "detail": "Chapter 2.4string_function",
+        "documentation": {}
+    },
+    {
+        "label": "#name",
+        "kind": 5,
+        "importPath": "Chapter 2.5practice",
+        "description": "Chapter 2.5practice",
+        "peekOfCode": "#name = input(\"Enter first name :\")\n#print(len(name))\n##write a program to input to find the occurrence of '$' in a string.\nstr = \"$%$...#$$...^^*$\"\nprint(str.count(\"$\"))",
+        "detail": "Chapter 2.5practice",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "Chapter 2.5practice",
+        "description": "Chapter 2.5practice",
+        "peekOfCode": "str = \"$%$...#$$...^^*$\"\nprint(str.count(\"$\"))",
+        "detail": "Chapter 2.5practice",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Chapter 2.6Neating_if",
+        "description": "Chapter 2.6Neating_if",
+        "peekOfCode": "age = int(input(\"Enter Age :\")) #\nif(18<=age):\n    if(65<=age):\n        print(\"can,t drive\") \n    else:\n        print(\"can drive\")\nelse:\n    print(\"can't drive\")",
+        "detail": "Chapter 2.6Neating_if",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 2.7Practice",
+        "description": "Chapter 2.7Practice",
+        "peekOfCode": "num = int(input(\"Enter Number :\"))\nif(num%2 == 0):\n    print(num ,\"is EVEN number\" )\nelse:\n    print(num ,\"is ODD number\")",
+        "detail": "Chapter 2.7Practice",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Chapter 2.8Practice",
+        "description": "Chapter 2.8Practice",
+        "peekOfCode": "a = int(input(\"A = \"))\nb = int(input(\"B = \"))\nc = int(input(\"C = \"))\nif(a>b and a>c):\n    print(\"Greatest number is :\", a)\nelif(b>a and b>c):\n    print(\"Greatest number is :\", b) \nelse:\n    print(\"Greatest number is :\", c)",
+        "detail": "Chapter 2.8Practice",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Chapter 2.8Practice",
+        "description": "Chapter 2.8Practice",
+        "peekOfCode": "b = int(input(\"B = \"))\nc = int(input(\"C = \"))\nif(a>b and a>c):\n    print(\"Greatest number is :\", a)\nelif(b>a and b>c):\n    print(\"Greatest number is :\", b) \nelse:\n    print(\"Greatest number is :\", c)",
+        "detail": "Chapter 2.8Practice",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Chapter 2.8Practice",
+        "description": "Chapter 2.8Practice",
+        "peekOfCode": "c = int(input(\"C = \"))\nif(a>b and a>c):\n    print(\"Greatest number is :\", a)\nelif(b>a and b>c):\n    print(\"Greatest number is :\", b) \nelse:\n    print(\"Greatest number is :\", c)",
+        "detail": "Chapter 2.8Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 2.9Practice",
+        "description": "Chapter 2.9Practice",
+        "peekOfCode": "num = int(input(\"Enter Number :\"))\nif(num%7 == 0):\n    print(\"Multiple of 7\" )\nelse:\n    print(\"Not a multiple\")",
+        "detail": "Chapter 2.9Practice",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "Chapter 3.1List",
+        "description": "Chapter 3.1List",
+        "peekOfCode": "marks = [98.05,93.5,90.46,86.35,84.55,79.90,77.12]\nprint(marks)\nprint(type(marks))\nprint(len(marks))\nprint(marks[0])\nprint(marks[6])\nstudent = [\"sejuti\", 99.99, 21, \"rajshahi\"]\nprint(student)\nprint(type(student))\nprint(len(student))",
+        "detail": "Chapter 3.1List",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "Chapter 3.1List",
+        "description": "Chapter 3.1List",
+        "peekOfCode": "student = [\"sejuti\", 99.99, 21, \"rajshahi\"]\nprint(student)\nprint(type(student))\nprint(len(student))\nstudent[0] = \"khalid\"\nprint(student)",
+        "detail": "Chapter 3.1List",
+        "documentation": {}
+    },
+    {
+        "label": "student[0]",
+        "kind": 5,
+        "importPath": "Chapter 3.1List",
+        "description": "Chapter 3.1List",
+        "peekOfCode": "student[0] = \"khalid\"\nprint(student)",
+        "detail": "Chapter 3.1List",
+        "documentation": {}
+    },
+    {
+        "label": "#num",
+        "kind": 5,
+        "importPath": "Chapter 3.2List",
+        "description": "Chapter 3.2List",
+        "peekOfCode": "#num = (88,50,48,89,85,75,69)\n#print(num[0:2])\n#print(num[:5])\n#print(num[0:])\n#print(num[-4:-2])\nlist = [5,4,2,3]  \nlist.reverse()\nprint(list)\nlist.append(6) #Adds one element at the end.\nprint(list)",
+        "detail": "Chapter 3.2List",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Chapter 3.2List",
+        "description": "Chapter 3.2List",
+        "peekOfCode": "list = [5,4,2,3]  \nlist.reverse()\nprint(list)\nlist.append(6) #Adds one element at the end.\nprint(list)\nprint(list.sort())\nprint(list)\nprint(list.sort(reverse=True))\nprint(list)\nprint(\"______________\")",
+        "detail": "Chapter 3.2List",
+        "documentation": {}
+    },
+    {
+        "label": "chr",
+        "kind": 5,
+        "importPath": "Chapter 3.2List",
+        "description": "Chapter 3.2List",
+        "peekOfCode": "chr = ['c','d','a','e','b']\nchr.reverse()\nprint(chr)\nchr.append('f')\nprint(chr)\nprint(chr.sort())\nprint(chr)\nprint(chr.sort(reverse=True))\nprint(chr)\nprint(\"_______________\")",
+        "detail": "Chapter 3.2List",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "kind": 5,
+        "importPath": "Chapter 3.2List",
+        "description": "Chapter 3.2List",
+        "peekOfCode": "List = [\"mango\",\"lichi\",\"banana\",\"apple\"]\nList.reverse()\nprint(List)\nList.append(\"orange\")\nprint(List)\nprint(List.sort())\nprint(List)\nprint(List.sort(reverse=True))\nprint(List)\nprint(\"______________\")",
+        "detail": "Chapter 3.2List",
+        "documentation": {}
+    },
+    {
+        "label": "LIST",
+        "kind": 5,
+        "importPath": "Chapter 3.2List",
+        "description": "Chapter 3.2List",
+        "peekOfCode": "LIST = [2,1,3,6,5]\n#LIST.insert(2,7)\nLIST.pop(2)\nprint(LIST)",
+        "detail": "Chapter 3.2List",
+        "documentation": {}
+    },
+    {
+        "label": "tup",
+        "kind": 5,
+        "importPath": "Chapter 3.3Tuples",
+        "description": "Chapter 3.3Tuples",
+        "peekOfCode": "tup = (6,3,4,1,2,5)\nprint(type(tup))\nprint(tup[0])\nprint(tup[4])\nprint(tup[0:6])\n# tup = (1.7,)\n# print(tup)\n# print(type(tup))",
+        "detail": "Chapter 3.3Tuples",
+        "documentation": {}
+    },
+    {
+        "label": "tup",
+        "kind": 5,
+        "importPath": "Chapter 3.4Tuples_methods",
+        "description": "Chapter 3.4Tuples_methods",
+        "peekOfCode": "tup = (4,1,3,5,2)\nprint(tup.index(3))\ntup1 = (4,1,3,5,1,2,1)\nprint(tup1.count(2))",
+        "detail": "Chapter 3.4Tuples_methods",
+        "documentation": {}
+    },
+    {
+        "label": "tup1",
+        "kind": 5,
+        "importPath": "Chapter 3.4Tuples_methods",
+        "description": "Chapter 3.4Tuples_methods",
+        "peekOfCode": "tup1 = (4,1,3,5,1,2,1)\nprint(tup1.count(2))",
+        "detail": "Chapter 3.4Tuples_methods",
+        "documentation": {}
+    },
+    {
+        "label": "movie",
+        "kind": 5,
+        "importPath": "Chapter 3.5practice",
+        "description": "Chapter 3.5practice",
+        "peekOfCode": "movie = []\n# m1 = input(\"1st movie : \")#->1\n# #movie.append(m)#->2\n# m2 = input(\"2nd movie : \")#->1\n# #movie.append(m)#->2\n# m3 = input(\"3rd movie : \")#->1\n# #movie.append(m)#->2 \nmovie.append(input(\"1st movie : \"))#->3\nmovie.append(input(\"2st movie : \"))#->3\nmovie.append(input(\"3st movie : \"))#->3",
+        "detail": "Chapter 3.5practice",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Chapter 3.6Practice",
+        "description": "Chapter 3.6Practice",
+        "peekOfCode": "list = [ 1,2,1,1,2,1]\nR_list = list.copy()\nR_list.reverse()\n# print(list)\n# print(R_list)\nif(list == R_list):\n    print(\"Palindrome\")\nelse:\n    print(\"Not Palindrome\")",
+        "detail": "Chapter 3.6Practice",
+        "documentation": {}
+    },
+    {
+        "label": "R_list",
+        "kind": 5,
+        "importPath": "Chapter 3.6Practice",
+        "description": "Chapter 3.6Practice",
+        "peekOfCode": "R_list = list.copy()\nR_list.reverse()\n# print(list)\n# print(R_list)\nif(list == R_list):\n    print(\"Palindrome\")\nelse:\n    print(\"Not Palindrome\")",
+        "detail": "Chapter 3.6Practice",
+        "documentation": {}
+    },
+    {
+        "label": "grade",
+        "kind": 5,
+        "importPath": "Chapter 3.7Practice",
+        "description": "Chapter 3.7Practice",
+        "peekOfCode": "grade = (\"C\",\"D\",\"A\",\"A\",\"B\",\"B\",\"A\")\nprint(grade.count(\"A\"))",
+        "detail": "Chapter 3.7Practice",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Chapter 3.8Practice",
+        "description": "Chapter 3.8Practice",
+        "peekOfCode": "list = [\"C\",\"D\",\"A\",\"A\",\"B\",\"B\",\"A\"]\nlist.sort()\nprint(list)",
+        "detail": "Chapter 3.8Practice",
+        "documentation": {}
+    },
+    {
+        "label": "subject",
+        "kind": 5,
+        "importPath": "Chapter 4.10practice",
+        "description": "Chapter 4.10practice",
+        "peekOfCode": "subject = {\n    \"python\",\"java\",\"c++\",\"python\",\"javascript\",\n    \"java\",\"python\",\"java\",\"c++\",\"c\"\n    }\nprint(len(subject))",
+        "detail": "Chapter 4.10practice",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "Chapter 4.11Practice",
+        "description": "Chapter 4.11Practice",
+        "peekOfCode": "marks = {}\nx = int(input(\"enter phy :\"))\nmarks.update({\"phu\":x})\nx = int(input(\"enter math :\"))\nmarks.update({\"math\":x})\nx = int(input(\"enter chem :\"))\nmarks.update({\"chem\":x})\nprint(marks)",
+        "detail": "Chapter 4.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Chapter 4.11Practice",
+        "description": "Chapter 4.11Practice",
+        "peekOfCode": "x = int(input(\"enter phy :\"))\nmarks.update({\"phu\":x})\nx = int(input(\"enter math :\"))\nmarks.update({\"math\":x})\nx = int(input(\"enter chem :\"))\nmarks.update({\"chem\":x})\nprint(marks)",
+        "detail": "Chapter 4.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Chapter 4.11Practice",
+        "description": "Chapter 4.11Practice",
+        "peekOfCode": "x = int(input(\"enter math :\"))\nmarks.update({\"math\":x})\nx = int(input(\"enter chem :\"))\nmarks.update({\"chem\":x})\nprint(marks)",
+        "detail": "Chapter 4.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Chapter 4.11Practice",
+        "description": "Chapter 4.11Practice",
+        "peekOfCode": "x = int(input(\"enter chem :\"))\nmarks.update({\"chem\":x})\nprint(marks)",
+        "detail": "Chapter 4.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "value",
+        "kind": 5,
+        "importPath": "Chapter 4.12Practice",
+        "description": "Chapter 4.12Practice",
+        "peekOfCode": "value = {\n    (\"Float\",9.0),\n    (\"int\",9)\n}\nprint(value)",
+        "detail": "Chapter 4.12Practice",
+        "documentation": {}
+    },
+    {
+        "label": "null_dict",
+        "kind": 5,
+        "importPath": "Chapter 4.1Dictionary",
+        "description": "Chapter 4.1Dictionary",
+        "peekOfCode": "null_dict = {}\nnull_dict[\"food\"] = \"rice\"\nnull_dict[\"enemail\"] = \"cat\"\nprint(null_dict)",
+        "detail": "Chapter 4.1Dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "null_dict[\"food\"]",
+        "kind": 5,
+        "importPath": "Chapter 4.1Dictionary",
+        "description": "Chapter 4.1Dictionary",
+        "peekOfCode": "null_dict[\"food\"] = \"rice\"\nnull_dict[\"enemail\"] = \"cat\"\nprint(null_dict)",
+        "detail": "Chapter 4.1Dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "null_dict[\"enemail\"]",
+        "kind": 5,
+        "importPath": "Chapter 4.1Dictionary",
+        "description": "Chapter 4.1Dictionary",
+        "peekOfCode": "null_dict[\"enemail\"] = \"cat\"\nprint(null_dict)",
+        "detail": "Chapter 4.1Dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "Chapter 4.2Nested_Dict",
+        "description": "Chapter 4.2Nested_Dict",
+        "peekOfCode": "student = {\n    \"name\" : \"Abir\",\n    \"subjects\":{\n        \"ENG\": 70,\n        \"MAT\": 69,\n        \"EEE\": 88,\n    }\n}\nprint(student)\nprint(student[\"subjects\"])",
+        "detail": "Chapter 4.2Nested_Dict",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "Chapter 4.3Methods",
+        "description": "Chapter 4.3Methods",
+        "peekOfCode": "student = {\n    \"name\" : \"Abir\",\n    \"subjects\":{\n        \"ENG\": 70,\n        \"MAT\": 69,\n        \"EEE\": 88,\n    }\n}\n# print(student.keys())\n# print(len(list(student.keys())))",
+        "detail": "Chapter 4.3Methods",
+        "documentation": {}
+    },
+    {
+        "label": "collection",
+        "kind": 5,
+        "importPath": "Chapter 4.4Set",
+        "description": "Chapter 4.4Set",
+        "peekOfCode": "collection = {1,2,3,4,4,\"amm\",\"amm\"}\nprint(collection)\nprint(type(collection))\nprint(len(collection)) #total number of element.",
+        "detail": "Chapter 4.4Set",
+        "documentation": {}
+    },
+    {
+        "label": "collection",
+        "kind": 5,
+        "importPath": "Chapter 4.5Null_set",
+        "description": "Chapter 4.5Null_set",
+        "peekOfCode": "collection = set()#Empty set. Syntax\nprint(type(collection))",
+        "detail": "Chapter 4.5Null_set",
+        "documentation": {}
+    },
+    {
+        "label": "collection",
+        "kind": 5,
+        "importPath": "Chapter 4.6Set_methods",
+        "description": "Chapter 4.6Set_methods",
+        "peekOfCode": "collection = set()\ncollection.add(1) \ncollection.add(3) \ncollection.add(1) \ncollection.add(5) \ncollection.add(1) \ncollection.add(\"sejuti\")\ncollection.add((1, 4,9,6)) \n# collection.add([6,8,9])  #Error\ncollection.clear() ",
+        "detail": "Chapter 4.6Set_methods",
+        "documentation": {}
+    },
+    {
+        "label": "collection",
+        "kind": 5,
+        "importPath": "Chapter 4.7Set_pop",
+        "description": "Chapter 4.7Set_pop",
+        "peekOfCode": "collection = {\"khalid\",\"mim\",\"mujahid\",\"sejuti\",\"akter\",\"swapna\"}\nprint(collection.pop())\nprint(collection.pop())\nprint(collection.pop())",
+        "detail": "Chapter 4.7Set_pop",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "Chapter 4.8_U_n",
+        "description": "Chapter 4.8_U_n",
+        "peekOfCode": "set1 = {1,2,3,4}\nset2 = {3,4,5,6}\nprint(set1.union(set2))\nprint(set1.intersection(set2))",
+        "detail": "Chapter 4.8_U_n",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "Chapter 4.8_U_n",
+        "description": "Chapter 4.8_U_n",
+        "peekOfCode": "set2 = {3,4,5,6}\nprint(set1.union(set2))\nprint(set1.intersection(set2))",
+        "detail": "Chapter 4.8_U_n",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Chapter 5.1Loop",
+        "description": "Chapter 5.1Loop",
+        "peekOfCode": "count = 1 # Iterator\nwhile 5 >= count:\n    print(\"Hello world\")\n    #  print(value) \n    count += 1 \nx = 1\nwhile x <= 5:\n    print(x)\n    x += 1\ni = 5",
+        "detail": "Chapter 5.1Loop",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Chapter 5.1Loop",
+        "description": "Chapter 5.1Loop",
+        "peekOfCode": "x = 1\nwhile x <= 5:\n    print(x)\n    x += 1\ni = 5\nwhile i >= 1:\n    print(i)\n    i -= 1",
+        "detail": "Chapter 5.1Loop",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Chapter 5.1Loop",
+        "description": "Chapter 5.1Loop",
+        "peekOfCode": "i = 5\nwhile i >= 1:\n    print(i)\n    i -= 1",
+        "detail": "Chapter 5.1Loop",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Chapter 5.2Practice",
+        "description": "Chapter 5.2Practice",
+        "peekOfCode": "number = 1\nwhile number<=100:\n    print(number)\n    number+=1\nprint(\"__________\")\nnumber1 = 100\nwhile number1>= 1:\n    print(number1)\n    number1-=1",
+        "detail": "Chapter 5.2Practice",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "Chapter 5.2Practice",
+        "description": "Chapter 5.2Practice",
+        "peekOfCode": "number1 = 100\nwhile number1>= 1:\n    print(number1)\n    number1-=1",
+        "detail": "Chapter 5.2Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Chapter 5.3Practice",
+        "description": "Chapter 5.3Practice",
+        "peekOfCode": "num1 = int(input(\"Enter Number : \"))\nnum2 = 1\nwhile  num2<=10:\n    print(num1*num2)\n    num2+=1",
+        "detail": "Chapter 5.3Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Chapter 5.3Practice",
+        "description": "Chapter 5.3Practice",
+        "peekOfCode": "num2 = 1\nwhile  num2<=10:\n    print(num1*num2)\n    num2+=1",
+        "detail": "Chapter 5.3Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 5.4Practice",
+        "description": "Chapter 5.4Practice",
+        "peekOfCode": "num = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]\n# print(num[0])\n# print(num[1])\n# print(num[2])\n# print(num[3])\n# print(num[4])\n# print(num[5])\n# print(num[6])\n# print(num[7])\n# print(num[8])",
+        "detail": "Chapter 5.4Practice",
+        "documentation": {}
+    },
+    {
+        "label": "idx",
+        "kind": 5,
+        "importPath": "Chapter 5.4Practice",
+        "description": "Chapter 5.4Practice",
+        "peekOfCode": "idx = 0\nwhile idx < len(num):\n    print(num[idx])\n    idx+=1\n# name = [\"sejuti\",\"swapna\",\"khalid\",\"mim\",\"mujahid\"]\n# idx = 0\n# while idx < len(name):\n#     print(name[idx])\n#     idx+=1",
+        "detail": "Chapter 5.4Practice",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 5.5Practice",
+        "description": "Chapter 5.5Practice",
+        "peekOfCode": "num = (1, 4, 9, 16, 25, 36, 49, 64, 81,100)\nx = 9 \nidx = 0 # initialization\nwhile idx < len(num):\n    if(num[idx]==x):\n        print(\"Found at idx :\" ,idx)\n    idx+=1",
+        "detail": "Chapter 5.5Practice",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Chapter 5.5Practice",
+        "description": "Chapter 5.5Practice",
+        "peekOfCode": "x = 9 \nidx = 0 # initialization\nwhile idx < len(num):\n    if(num[idx]==x):\n        print(\"Found at idx :\" ,idx)\n    idx+=1",
+        "detail": "Chapter 5.5Practice",
+        "documentation": {}
+    },
+    {
+        "label": "idx",
+        "kind": 5,
+        "importPath": "Chapter 5.5Practice",
+        "description": "Chapter 5.5Practice",
+        "peekOfCode": "idx = 0 # initialization\nwhile idx < len(num):\n    if(num[idx]==x):\n        print(\"Found at idx :\" ,idx)\n    idx+=1",
+        "detail": "Chapter 5.5Practice",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Chapter 5.6Break",
+        "description": "Chapter 5.6Break",
+        "peekOfCode": "i = 1\nwhile i <= 10:\n    print(i)\n    if(i == 5):\n        break\n    i += 1\nprint(\"End of loop\")",
+        "detail": "Chapter 5.6Break",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Chapter 5.8Continue",
+        "description": "Chapter 5.8Continue",
+        "peekOfCode": "i = 1\nwhile i <= 10:\n    if(i % 2 == 0):\n        i += 1\n        continue\n    print(i)\n    i += 1",
+        "detail": "Chapter 5.8Continue",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Chapter 5.9for_loop",
+        "description": "Chapter 5.9for_loop",
+        "peekOfCode": "list = [\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]\nfor num in list:\n    print(num)\nname = [\"rofik\",\"shofik\",\"borkot\",\"jobber\",\"salam\"]   \nfor val in name:\n    print(val) \ntup = (7,6,5,4,3,2,1)\nfor num in tup:\n    print(num)    \nstr = \"fresh food\"",
+        "detail": "Chapter 5.9for_loop",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Chapter 5.9for_loop",
+        "description": "Chapter 5.9for_loop",
+        "peekOfCode": "name = [\"rofik\",\"shofik\",\"borkot\",\"jobber\",\"salam\"]   \nfor val in name:\n    print(val) \ntup = (7,6,5,4,3,2,1)\nfor num in tup:\n    print(num)    \nstr = \"fresh food\"\nfor chr in str:\n    if(chr == \"s\"):\n        print(\"S found\")",
+        "detail": "Chapter 5.9for_loop",
+        "documentation": {}
+    },
+    {
+        "label": "tup",
+        "kind": 5,
+        "importPath": "Chapter 5.9for_loop",
+        "description": "Chapter 5.9for_loop",
+        "peekOfCode": "tup = (7,6,5,4,3,2,1)\nfor num in tup:\n    print(num)    \nstr = \"fresh food\"\nfor chr in str:\n    if(chr == \"s\"):\n        print(\"S found\")\n        break\n    print(chr)\n# else:",
+        "detail": "Chapter 5.9for_loop",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "Chapter 5.9for_loop",
+        "description": "Chapter 5.9for_loop",
+        "peekOfCode": "str = \"fresh food\"\nfor chr in str:\n    if(chr == \"s\"):\n        print(\"S found\")\n        break\n    print(chr)\n# else:\n#     print(\"END\")    \nprint(\"END\")",
+        "detail": "Chapter 5.9for_loop",
+        "documentation": {}
+    }
+]
