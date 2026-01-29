@@ -972,6 +972,51 @@
         "documentation": {}
     },
     {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Chapter 5.10Practice",
+        "description": "Chapter 5.10Practice",
+        "peekOfCode": "list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]\nfor value in list:\n    print(value)",
+        "detail": "Chapter 5.10Practice",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Chapter 5.11Practice",
+        "description": "Chapter 5.11Practice",
+        "peekOfCode": "list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]\nx = 36\nidx = 0\nfor value in list:\n    if(value==x):\n        print(\"found at idx\", idx)\n    idx+=1\n    # else:\n    #     print(\"Not found\")",
+        "detail": "Chapter 5.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Chapter 5.11Practice",
+        "description": "Chapter 5.11Practice",
+        "peekOfCode": "x = 36\nidx = 0\nfor value in list:\n    if(value==x):\n        print(\"found at idx\", idx)\n    idx+=1\n    # else:\n    #     print(\"Not found\")",
+        "detail": "Chapter 5.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "idx",
+        "kind": 5,
+        "importPath": "Chapter 5.11Practice",
+        "description": "Chapter 5.11Practice",
+        "peekOfCode": "idx = 0\nfor value in list:\n    if(value==x):\n        print(\"found at idx\", idx)\n    idx+=1\n    # else:\n    #     print(\"Not found\")",
+        "detail": "Chapter 5.11Practice",
+        "documentation": {}
+    },
+    {
+        "label": "seq",
+        "kind": 5,
+        "importPath": "Chapter 5.12Range()",
+        "description": "Chapter 5.12Range()",
+        "peekOfCode": "seq = range(5)\nfor i in seq:\n    print(i)",
+        "detail": "Chapter 5.12Range()",
+        "documentation": {}
+    },
+    {
         "label": "count",
         "kind": 5,
         "importPath": "Chapter 5.1Loop",
@@ -1093,7 +1138,7 @@
         "kind": 5,
         "importPath": "Chapter 5.8Continue",
         "description": "Chapter 5.8Continue",
-        "peekOfCode": "i = 1\nwhile i <= 10:\n    if(i % 2 == 0):\n        i += 1\n        continue\n    print(i)\n    i += 1",
+        "peekOfCode": "i = 1 #ODD number \nwhile i <= 10:\n    if(i % 2 == 0):\n        i += 1\n        continue\n    print(i)\n    i += 1",
         "detail": "Chapter 5.8Continue",
         "documentation": {}
     },
