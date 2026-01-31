@@ -1012,7 +1012,7 @@
         "kind": 5,
         "importPath": "Chapter 5.12Range()",
         "description": "Chapter 5.12Range()",
-        "peekOfCode": "seq = range(5)\nfor i in seq:\n    print(i)",
+        "peekOfCode": "seq = range(5)\nfor i in seq:\n    print(i)\n#1234567890",
         "detail": "Chapter 5.12Range()",
         "documentation": {}
     },
