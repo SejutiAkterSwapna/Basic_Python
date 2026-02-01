@@ -985,7 +985,7 @@
         "kind": 5,
         "importPath": "Chapter 5.11Practice",
         "description": "Chapter 5.11Practice",
-        "peekOfCode": "list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]\nx = 36\nidx = 0\nfor value in list:\n    if(value==x):\n        print(\"found at idx\", idx)\n    idx+=1\n    # else:\n    #     print(\"Not found\")",
+        "peekOfCode": "list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]  # Linear search\nx = 36\nidx = 0\nfor value in list:\n    if(value==x):\n        print(\"found at idx\", idx)\n    idx+=1\n    # else:\n    #     print(\"Not found\")",
         "detail": "Chapter 5.11Practice",
         "documentation": {}
     },
@@ -1008,12 +1008,21 @@
         "documentation": {}
     },
     {
-        "label": "seq",
+        "label": "#seq",
         "kind": 5,
         "importPath": "Chapter 5.12Range()",
         "description": "Chapter 5.12Range()",
-        "peekOfCode": "seq = range(5)\nfor i in seq:\n    print(i)\n#1234567890",
+        "peekOfCode": "#seq = range(5)\n# for i in seq:\n#     print(i)\n# for i in range(10): # Range(stop)\n#     print(i)\n# for i in range(1,5):  #Range(start & stop)\n#     print(i)    \n# for i in range(2,10,2):  #Range (start , stop & even number)\n#     print(i)\nfor i in range(1,10,2):  #Range (start , stop & odd number)",
         "detail": "Chapter 5.12Range()",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 5.13Practice",
+        "description": "Chapter 5.13Practice",
+        "peekOfCode": "num = int(input(\"Enter number: \"))\nfor i in range(1,11):\n    print(i*num)",
+        "detail": "Chapter 5.13Practice",
         "documentation": {}
     },
     {
