@@ -1026,6 +1026,51 @@
         "documentation": {}
     },
     {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 5.15Practice",
+        "description": "Chapter 5.15Practice",
+        "peekOfCode": "num = 7\nsum = 0\ni = 1\nwhile i <= num:\n    sum+=i\n    i+=1\nprint(sum)",
+        "detail": "Chapter 5.15Practice",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "Chapter 5.15Practice",
+        "description": "Chapter 5.15Practice",
+        "peekOfCode": "sum = 0\ni = 1\nwhile i <= num:\n    sum+=i\n    i+=1\nprint(sum)",
+        "detail": "Chapter 5.15Practice",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Chapter 5.15Practice",
+        "description": "Chapter 5.15Practice",
+        "peekOfCode": "i = 1\nwhile i <= num:\n    sum+=i\n    i+=1\nprint(sum)",
+        "detail": "Chapter 5.15Practice",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Chapter 5.16Practice",
+        "description": "Chapter 5.16Practice",
+        "peekOfCode": "n = 5\nfact = 1\nfor i in range(1,n+1):\n    fact *= i\nprint(\"Factorial is = \",fact)",
+        "detail": "Chapter 5.16Practice",
+        "documentation": {}
+    },
+    {
+        "label": "fact",
+        "kind": 5,
+        "importPath": "Chapter 5.16Practice",
+        "description": "Chapter 5.16Practice",
+        "peekOfCode": "fact = 1\nfor i in range(1,n+1):\n    fact *= i\nprint(\"Factorial is = \",fact)",
+        "detail": "Chapter 5.16Practice",
+        "documentation": {}
+    },
+    {
         "label": "count",
         "kind": 5,
         "importPath": "Chapter 5.1Loop",
