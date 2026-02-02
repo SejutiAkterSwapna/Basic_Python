@@ -1231,5 +1231,23 @@
         "peekOfCode": "str = \"fresh food\"\nfor chr in str:\n    if(chr == \"s\"):\n        print(\"S found\")\n        break\n    print(chr)\n# else:\n#     print(\"END\")    \nprint(\"END\")",
         "detail": "Chapter 5.9for_loop",
         "documentation": {}
+    },
+    {
+        "label": "calc_sum",
+        "kind": 2,
+        "importPath": "Chapter 6.1Function",
+        "description": "Chapter 6.1Function",
+        "peekOfCode": "def calc_sum(a,b): ## Function definition.\n    sum = a+b\n    print(sum)\n    return(sum)\n    #return(a + b)\ncalc_sum(3,6) ## (calc_sum)->function call, ## (3,6)->arguments.\ncalc_sum(7,4)\ncalc_sum(3,9)\ncalc_sum(2,6)\ndef print_Hw():",
+        "detail": "Chapter 6.1Function",
+        "documentation": {}
+    },
+    {
+        "label": "print_Hw",
+        "kind": 2,
+        "importPath": "Chapter 6.1Function",
+        "description": "Chapter 6.1Function",
+        "peekOfCode": "def print_Hw():\n    print(\"Hello world\")\nprint_Hw()\nprint_Hw()\nprint_Hw()\nprint_Hw()\nprint_Hw()\n##QU-> Average of three numbers\n# def ave_of_3num(a,b,c):\n#     sum = a + b + c",
+        "detail": "Chapter 6.1Function",
+        "documentation": {}
     }
 ]
