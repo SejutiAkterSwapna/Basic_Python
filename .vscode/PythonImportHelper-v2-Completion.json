@@ -1249,5 +1249,41 @@
         "peekOfCode": "def print_Hw():\n    print(\"Hello world\")\nprint_Hw()\nprint_Hw()\nprint_Hw()\nprint_Hw()\nprint_Hw()\n##QU-> Average of three numbers\n# def ave_of_3num(a,b,c):\n#     sum = a + b + c",
         "detail": "Chapter 6.1Function",
         "documentation": {}
+    },
+    {
+        "label": "cal_prod",
+        "kind": 2,
+        "importPath": "Chapter 6.2Default_P",
+        "description": "Chapter 6.2Default_P",
+        "peekOfCode": "def cal_prod(a=2,b=6):\n    print(a*b)\n    return(a*b)\ncal_prod()",
+        "detail": "Chapter 6.2Default_P",
+        "documentation": {}
+    },
+    {
+        "label": "print_len",
+        "kind": 2,
+        "importPath": "Chapter 6.3Prastice",
+        "description": "Chapter 6.3Prastice",
+        "peekOfCode": "def print_len(list):\n    print(len(list))\n    return(list)\nprint_len(list1)\nprint_len(list2)",
+        "detail": "Chapter 6.3Prastice",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Chapter 6.3Prastice",
+        "description": "Chapter 6.3Prastice",
+        "peekOfCode": "list1 = [\"cat\",\"rat\",\"caw\",\"dog\"]\nlist2 = [\"A\",\"E\",\"I\",\"O\",\"U\"]\ndef print_len(list):\n    print(len(list))\n    return(list)\nprint_len(list1)\nprint_len(list2)",
+        "detail": "Chapter 6.3Prastice",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "Chapter 6.3Prastice",
+        "description": "Chapter 6.3Prastice",
+        "peekOfCode": "list2 = [\"A\",\"E\",\"I\",\"O\",\"U\"]\ndef print_len(list):\n    print(len(list))\n    return(list)\nprint_len(list1)\nprint_len(list2)",
+        "detail": "Chapter 6.3Prastice",
+        "documentation": {}
     }
 ]
